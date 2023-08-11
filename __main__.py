@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
         navigation_bar.addAction(back_button)
 
         #Forward button
-        forward_button = QAction('forward', self)
+        forward_button = QAction('Forward', self)
         forward_button.triggered.connect(self.browser.forward)
         navigation_bar.addAction(forward_button)
 
